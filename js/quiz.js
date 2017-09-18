@@ -152,7 +152,7 @@
 ;(function() {
     $(document).ready(function () {
         var isQuizAnswered = Cookies.get('quiz_finished');
-        var url = '../atest.html';
+        var url = 'atest.html';
         if(isQuizAnswered != undefined && isQuizAnswered === '1') {
             window.location.href = url;
         }
